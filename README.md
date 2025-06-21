@@ -3,17 +3,13 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=dhruvg0ya1&label=Profile%20views&color=0e75b6&style=flat" alt="dhruvg0ya1" /> </p>
 
-- 🔭 I’m currently working on [SyncPixel](https://github.com/dhruvg0ya1/SyncPixel)
+- 🔭 I’m currently working on [SyncPixel](https://github.com/dhruvg0ya1/SyncPixel) and [ForgeFit](https://github.com/dhruvg0ya1/ForgeFit)
 
 - 🌱 I’m currently learning **Python, ML**
 
-- 🔭 I’m currently working on [ForgeFit](https://github.com/dhruvg0ya1/ForgeFit)
-
-- 💬 Ask me about **ML, AI, GenAI, NLP**
-
 - 📫 How to reach me **dhruvg096@gmail.com**
 
-- 📄 Know about my experiences [https://docs.google.com/document/d/1WEaysW2Y2UqGXRXEbqO2E67ymRlbiBgI/edit?usp=sharing&ouid=103359105916352967425&rtpof=true&sd=true](https://docs.google.com/document/d/1WEaysW2Y2UqGXRXEbqO2E67ymRlbiBgI/edit?usp=sharing&ouid=103359105916352967425&rtpof=true&sd=true)
+- 📄 [Resume](https://docs.google.com/document/d/1WEaysW2Y2UqGXRXEbqO2E67ymRlbiBgI/edit?usp=sharing&ouid=103359105916352967425&rtpof=true&sd=true)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
@@ -21,7 +17,6 @@
 <a href="https://linkedin.com/in/dhruvg0yal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="dhruvg0yal" height="30" width="40" /></a>
 <a href="https://kaggle.com/dhruvg0yal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="dhruvg0yal" height="30" width="40" /></a>
 <a href="https://instagram.com/dhruvg0yal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="dhruvg0yal" height="30" width="40" /></a>
-<a href="https://www.youtube.com/c/@dhruvg0yai" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/youtube.svg" alt="@dhruvg0yai" height="30" width="40" /></a>
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
