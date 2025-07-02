@@ -1,11 +1,11 @@
 <h1 align="center">Helo 👋, I am Dhruv GOyal</h1>
 <h3 align="center">Machine Learning Engineer</h3>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=dhruvg0ya1&label=Profile%20views&color=0e75b6&style=flat" alt="dhruvg0ya1" /> </p>
+<p align="center"> <img src="https://komarev.com/ghpvc/?username=dhruvg0ya1&label=Profile%20views&color=0e75b6&style=flat" alt="dhruvg0ya1" /> </p>
 
-- 🔭 I’m currently working on [SyncPixel](https://github.com/dhruvg0ya1/SyncPixel) and [ForgeFit](https://github.com/dhruvg0ya1/ForgeFit)
+- 🔭 I’m currently working on [SyncPixel](https://github.com/dhruvg0ya1/SyncPixel), [ForgeFit](https://github.com/dhruvg0ya1/ForgeFit) and more.
 
-- 🌱 I’m currently learning **Python, ML**
+- 🌱 I’m currently learning **Python, ML, DL, NLP, GenAI**
 
 - 📫 How to reach me **dhruvg096@gmail.com**
 
