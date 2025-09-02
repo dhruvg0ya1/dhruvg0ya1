@@ -9,7 +9,7 @@
 
 - 📫 How to reach me **dhruvg096@gmail.com**
 
-- 📄 [Resume](https://docs.google.com/document/d/1WEaysW2Y2UqGXRXEbqO2E67ymRlbiBgI/edit?usp=sharing&ouid=103359105916352967425&rtpof=true&sd=true)
+- 📄 [Resume](https://docs.google.com/document/d/1LYswcQT_bAfUKgj_jHUKCRmLIUy7lzv_uE-wJdj0PTw/edit?usp=sharing)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
