@@ -3,13 +3,13 @@
 
 <p align="center"> <img src="https://komarev.com/ghpvc/?username=dhruvg0ya1&label=Profile%20views&color=0e75b6&style=flat" alt="dhruvg0ya1" /> </p>
 
-- 🔭 I’m currently working on [SyncPixel](https://github.com/dhruvg0ya1/SyncPixel), [Fit Happens](https://github.com/Div-raj/FIT-HAPPENS-NEW) and more.
+- 🔭 I’m currently working on [SyncPixel](https://github.com/dhruvg0ya1/SyncPixel) and more.
 
 - 🌱 I’m currently learning **Python, ML, DL, NLP, GenAI**
 
 - 📫 How to reach me **dhruvg096@gmail.com**
 
-- 📄 [Resume](https://docs.google.com/document/d/1LYswcQT_bAfUKgj_jHUKCRmLIUy7lzv_uE-wJdj0PTw/edit?usp=sharing)
+- 📄 [Resume](https://docs.google.com/document/d/176PcQ0ZMn3NhVToVcaSoMfT7hvtilokWB5xGnKMKi5o/edit?usp=sharing)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
