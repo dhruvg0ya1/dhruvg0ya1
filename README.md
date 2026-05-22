@@ -11,8 +11,6 @@ ML Engineer and published researcher specializing in Deep Learning, Computer Vis
 
 - 📫 How to reach me: **dhruvg096@gmail.com**
 
-- 📄 [Resume](https://docs.google.com/document/d/176PcQ0ZMn3NhVToVcaSoMfT7hvtilokWB5xGnKMKi5o/edit?usp=sharing)
-
 <h3 align="center">Connect with me:</h3>
 <p align="center">
 <a href="https://linkedin.com/in/dhruvg0yal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="dhruvg0yal" height="30" width="40" /></a>
