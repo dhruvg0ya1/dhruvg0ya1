@@ -15,3 +15,5 @@ ML Engineer and published researcher specializing in Deep Learning, Computer Vis
 <a href="https://kaggle.com/dhruvg0yal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="dhruvg0yal" height="30" width="40" /></a>
 <a href="https://instagram.com/dhruvg0yal" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="dhruvg0yal" height="30" width="40" /></a>
 </p>
+
+![snake](https://raw.githubusercontent.com/dhruvg0ya1/dhruvg0ya1/output/github-contribution-grid-snake-dark.svg)
