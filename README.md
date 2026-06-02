@@ -1,8 +1,8 @@
 <h1 align="center">Helo 👋, I am Dhruv Goyal</h1>
-<h3 align="center">Machine Learning Engineer</h3>
+<h3 align="center">AI/ML Engineer and Researcher in Deep Learning, Computer Vision, and Generative AI</h3>
 
 <p align="center">
-ML Engineer and published researcher specializing in Deep Learning, Computer Vision, and Generative AI. Experienced in taking SOTA research papers and building them into modular, production-ready systems. Published in AIJR Proceedings with hands-on experience across the full CV stack - from segmentation and 3D reconstruction to physics simulation and video generation. Skilled in building scalable AI solutions with PyTorch, LangChain, BERT, XGBoost, and Streamlit across multiple industry roles.
+AI/ML Engineer and published researcher specializing in Deep Learning, Computer Vision, and Generative AI. Experienced in taking state-of-the-art research papers and building them into modular, production-ready systems. Published in AIJR Proceedings with hands-on experience across the full CV stack - from segmentation and 3D reconstruction to physics simulation and video generation. Skilled in building scalable AI solutions with PyTorch, LangChain, BERT, XGBoost, and Streamlit across multiple industry roles.
 </p>
 
 
