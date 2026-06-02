@@ -14,11 +14,11 @@
 
 ---
 
-## 🧠 About Me
+## 👤 About Me
 
-- 🔬 Published researcher — **AIJR Proceedings**, Vol. 7, No. 6, 2025 (Transformers in Deep Learning)
+- 🔬 Published researcher - **AIJR Proceedings**, Vol. 7, No. 6, 2025 (Transformers in Deep Learning)
 - 🎓 B.Tech AI/ML @ **GGSIPU** · Class of 2026
-- 💼 Ex — **Moleculyst** · **Vodafone VOIS** · **Infosys Springboard** · **IBM**
+- 💼 Ex - **Moleculyst** · **VOIS** · **IBM SkillsBuild** · **Infosys Springboard**
 - 🛠️ Specialize in taking SOTA research papers and building them into modular, production-ready systems
 - 🤖 Deep into Computer Vision, Generative AI, and agentic LLM pipelines
 - 📍 Delhi, India · Open to relocate anywhere · **Immediate joiner**
@@ -27,35 +27,38 @@
 
 ## 🛠️ Tech Stack
 
-**Languages**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=c%2B%2B&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+<div align="center">
 
-**ML / DL / Computer Vision**  
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
-![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-337733?style=flat-square&logoColor=white)
+**Languages**
 
-**GenAI / LLMs**  
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
-![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=flat-square&logo=pinecone&logoColor=white)
-![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
-![BERT](https://img.shields.io/badge/BERT-FF6F00?style=flat-square&logo=huggingface&logoColor=white)
+<img src="https://skillicons.dev/icons?i=python,mysql&theme=dark" />
 
-**Tools & Infra**  
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![AWS EC2](https://img.shields.io/badge/AWS_EC2-FF9900?style=flat-square&logo=amazonec2&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=firebase&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![n8n](https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+**ML / DL / CV**
+
+<img src="https://skillicons.dev/icons?i=pytorch,tensorflow,sklearn,opencv&theme=dark" />
+
+<br/>
+
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
+![XGBoost](https://img.shields.io/badge/XGBoost-337733?style=for-the-badge&logoColor=white)
+
+**GenAI / LLMs**
+
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)
+![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logoColor=white)
+![BERT](https://img.shields.io/badge/BERT-FF6F00?style=for-the-badge&logo=huggingface&logoColor=white)
+
+**Tools & Infra**
+
+<img src="https://skillicons.dev/icons?i=aws,firebase,mongodb,mysql,git&theme=dark" />
+
+<br/>
+
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white)
+![n8n](https://img.shields.io/badge/n8n-EA4B71?style=for-the-badge&logo=n8n&logoColor=white)
+
+</div>
 
 ---
 
@@ -63,17 +66,17 @@
 
 | Project | Description | Stack |
 |:---|:---|:---|
-| [🍌 Agent Banana](https://github.com/dhruvg0ya1/agent-banana) | Agentic visual QC pipeline — Florence-2 grounding, Gemini VLM critic, Laplacian pyramid blending, SSE streaming | PyTorch · Gemini · OpenCV |
-| [📊 CodeoGraph](https://github.com/dhruvg0ya1/codeograph) | AI codebase understanding agent — AST-based chunking, hybrid BM25/vector retrieval, dependency graph impact analysis | LangChain · Pinecone · Python |
-| [🎵 SyncPixel](https://github.com/dhruvg0ya1/syncpixel) | Multimodal emotion-to-music recommendations — DeepFace + BLIP + Spotify API + Gemini | PyTorch · Gemini · Spotify API |
-| [🧠 GPT-2 from Scratch](https://github.com/dhruvg0ya1/gpt2-scratch) | Custom BPE tokenizer, causal attention, Shakespeare pretraining, WhatsApp SFT, Llama-3-as-Judge eval | PyTorch |
-| [💪 Fit Happens](https://github.com/dhruvg0ya1/fit-happens) | Full-stack AI SaaS — Gemini 2.5 Flash fitness coach, React/TypeScript, Firebase | React · TypeScript · Firebase |
+| [🍌 Agent Banana](https://github.com/dhruvg0ya1/Agent-Image-Editing) | Agentic visual QC pipeline - Florence-2 grounding, Gemini VLM critic, Laplacian pyramid blending, SSE streaming | PyTorch · Gemini · OpenCV |
+| [📊 CodeoGraph](https://github.com/dhruvg0ya1/CodeoGraph) | AI codebase understanding agent - AST-based chunking, hybrid BM25/vector retrieval, dependency graph impact analysis | LangChain · Pinecone · Python |
+| [🎵 SyncPixel](https://github.com/dhruvg0ya1/SyncPixel) | Multimodal emotion-to-music recommendations - DeepFace + BLIP + Spotify API + Gemini | PyTorch · Gemini · Spotify API |
+| [🧠 GPT-2 from Scratch](https://github.com/dhruvg0ya1/GPT-2) | Custom BPE tokenizer, causal attention, Shakespeare pretraining, WhatsApp SFT, Llama-3-as-Judge eval | PyTorch |
+| [💪 Fit Happens](https://github.com/dhruvg0ya1/FIT-HAPPENS-NEW) | Full-stack AI SaaS - Gemini 2.5 Flash fitness coach, React/TypeScript, Firebase | React · TypeScript · Firebase |
 
 ---
 
 ## 📄 Research
 
-📌 **"Transformers in Deep Learning"** — *AIJR Proceedings*, Vol. 7, No. 6, 2025
+📌 **"Transformers in Deep Learning"** - *AIJR Proceedings*, Vol. 7, No. 6, 2025 · [DOI: 10.21467/proceedings.7.6.51](https://doi.org/10.21467/proceedings.7.6.51)
 
 ---
 
@@ -81,12 +84,12 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=dhruvg0ya1&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github" height="165" alt="GitHub Stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhruvg0ya1&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="165" alt="Top Languages"/>
+<img src="https://github-readme-stats.vercel.app/api?username=dhruvg0ya1&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github&cache_seconds=1800" height="165" alt="GitHub Stats"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhruvg0ya1&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800" height="165" alt="Top Languages"/>
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=dhruvg0ya1&theme=tokyonight&hide_border=true" height="165" alt="GitHub Streak"/>
+<img src="https://streak-stats.demolab.com/?user=dhruvg0ya1&theme=tokyonight&hide_border=true" height="165" alt="GitHub Streak"/>
 
 </div>
 
@@ -98,7 +101,7 @@
 
 <br/>
 
-*Open to — AI/ML Engineer · GenAI Engineer · Data Scientist · Computer Vision Engineer*  
+*Open to - AI/ML Engineer · GenAI Engineer · Data Scientist · Computer Vision Engineer*  
 *Anywhere in India · Immediate Joiner · Let's build something great 🚀*
 
 </div>
