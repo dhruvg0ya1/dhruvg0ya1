@@ -17,10 +17,10 @@
 ## 👤 About Me
 
 - 🔬 Published researcher - **AIJR Proceedings**, Vol. 7, No. 6, 2025 (Transformers in Deep Learning)
-- 🎓 B.Tech AI/ML @ **GGSIPU** · Class of 2026
-- 💼 Ex - **Moleculyst** · **VOIS** · **IBM SkillsBuild** · **Infosys Springboard**
 - 🛠️ Specialize in taking SOTA research papers and building them into modular, production-ready systems
 - 🤖 Deep into Computer Vision, Generative AI, and agentic LLM pipelines
+- 🎓 B.Tech AI/ML @ **GGSIPU** · Class of 2026
+- 💼 Ex - **Moleculyst** · **VOIS** · **IBM SkillsBuild** · **Infosys Springboard**
 - 📍 Delhi, India · Open to relocate anywhere · **Immediate joiner**
 
 ---
@@ -83,13 +83,9 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=dhruvg0ya1&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&rank_icon=github&cache_seconds=1800" height="165" alt="GitHub Stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhruvg0ya1&layout=compact&theme=tokyonight&hide_border=true&langs_count=8&cache_seconds=1800" height="165" alt="Top Languages"/>
-
+  
+<a href="https://git.io/streak-stats"><img src="https://github-readme-streak-stats-green-five.vercel.app?user=dhruvg0ya1&theme=modern-lilac2&date_format=j%20M%5B%20Y%5D&card_width=750&card_height=175" alt="GitHub Streak" /></a>
 <br/>
-
-<img src="https://streak-stats.demolab.com/?user=dhruvg0ya1&theme=tokyonight&hide_border=true" height="165" alt="GitHub Streak"/>
 
 </div>
 
