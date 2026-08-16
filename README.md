@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=79C0FF&center=true&vCenter=true&width=680&lines=Hey%2C+I'm+Dhruv+Goyal+%F0%9F%91%8B;ML+Engineer+%26+CV+Researcher;SOTA+Papers+%E2%86%92+Production+AI;Deep+Learning+%7C+Computer+Vision+%7C+GenAI" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=800&color=79C0FF&center=true&vCenter=true&width=680&lines=Hey%2C+I'm+Dhruv+Goyal+%F0%9F%91%8B;AI+Product+Engineer+%40+Times+Internet;I+ship+production+GenAI%2C+not+notebooks;LLMs+%7C+RAG+%7C+Agents+%7C+Computer+Vision" alt="Typing SVG" />
 
 <br/>
 
@@ -8,7 +8,6 @@
 [![Email](https://img.shields.io/badge/Email-dhruvg096@gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:dhruvg096@gmail.com)
 [![X](https://img.shields.io/badge/X-dhruvg0yal-000000?style=flat-square&logo=x&logoColor=white)](https://twitter.com/dhruvg0yal)
 [![Kaggle](https://img.shields.io/badge/Kaggle-dhruvg0yal-20BEFF?style=flat-square&logo=kaggle&logoColor=white)](https://kaggle.com/dhruvg0yal)
-[![Instagram](https://img.shields.io/badge/Instagram-dhruvg0yal-E4405F?style=flat-square&logo=instagram&logoColor=white)](https://instagram.com/dhruvg0yal)
 
 </div>
 
@@ -16,12 +15,14 @@
 
 ## 👤 About Me
 
-- 🔬 Published researcher - **AIJR Proceedings**, Vol. 7, No. 6, 2025 (Transformers in Deep Learning)
-- 🛠️ Specialize in taking SOTA research papers and building them into modular, production-ready systems
-- 🤖 Deep into Computer Vision, Generative AI, and agentic LLM pipelines
-- 🎓 B.Tech AI/ML @ **GGSIPU** · Class of 2026
-- 💼 Ex - **Moleculyst** · **VOIS** · **IBM SkillsBuild** · **Infosys Springboard**
-- 📍 Delhi, India · Open to relocate anywhere · **Immediate joiner**
+- 🏢 **AI Product Engineer @ Times Internet** - sole engineer on the AI video pipeline behind *The Economic Times*: 7 automated stages, 13 model APIs across LLM, diffusion, TTS and lip-sync
+- ⚡ Cut inference cost **58%** and pipeline wall-clock **4x** there, and built the evaluation harness that gates every release
+- 🔬 Published researcher - **AIJR Proceedings**, Vol. 7, No. 6, 2025
+- 🛠️ I take SOTA papers and turn them into modular, production-ready systems
+- 🤖 LLMs, RAG, agentic pipelines, computer vision, model evaluation
+- 🎓 B.Tech AI & ML @ **GGSIPU**
+- 💼 Previously - **Moleculyst** · **VOIS** · **IBM** · **Infosys Springboard**
+- 📍 Delhi NCR, India · Open to relocate · **Immediate joiner**
 
 ---
 
@@ -66,17 +67,19 @@
 
 | Project | Description | Stack |
 |:---|:---|:---|
-| [🍌 Agent Banana](https://github.com/dhruvg0ya1/Agent-Image-Editing) | Agentic visual QC pipeline - Florence-2 grounding, Gemini VLM critic, Laplacian pyramid blending, SSE streaming | PyTorch · Gemini · OpenCV |
+| [🍌 Agent Banana](https://github.com/dhruvg0ya1/Agent-Image-Editing) | Agentic image editing via Image Layer Decomposition - Florence-2 grounding, ReAct loop, Gemini VLM critic, Laplacian pyramid blending, SSE streaming. [Live demo](https://huggingface.co/spaces/vansh7266/Agent_Crop_M) | PyTorch · Gemini · OpenCV |
 | [📊 CodeoGraph](https://github.com/dhruvg0ya1/CodeoGraph) | AI codebase understanding agent - AST-based chunking, hybrid BM25/vector retrieval, dependency graph impact analysis | LangChain · Pinecone · Python |
 | [🎵 SyncPixel](https://github.com/dhruvg0ya1/SyncPixel) | Multimodal emotion-to-music recommendations - DeepFace + BLIP + Spotify API + Gemini | PyTorch · Gemini · Spotify API |
-| [🧠 GPT-2 from Scratch](https://github.com/dhruvg0ya1/GPT-2) | Custom BPE tokenizer, causal attention, Shakespeare pretraining, WhatsApp SFT, Llama-3-as-Judge eval | PyTorch |
+| [🧠 GPT-2 from Scratch](https://github.com/dhruvg0ya1/GPT-2) | Every layer written by hand - multi-head causal attention, weight tying, 124M pretrained, 355M fine-tuned, Llama-3-as-Judge eval | PyTorch |
+| [✉️ Aevom](https://github.com/dhruvg0ya1/Aevom) | LLM cold-outreach engine - LinkedIn enrichment with disk cache, structured JSON generation with fallback parsing, Gmail OAuth2, follow-up state machine | Streamlit · HF Inference · Gmail API |
 | [💪 Fit Happens](https://github.com/dhruvg0ya1/FIT-HAPPENS-NEW) | Full-stack AI SaaS - Gemini 2.5 Flash fitness coach, React/TypeScript, Firebase | React · TypeScript · Firebase |
 
 ---
 
 ## 📄 Research
 
-📌 **"Transformers in Deep Learning"** - *AIJR Proceedings*, Vol. 7, No. 6, 2025 · [DOI: 10.21467/proceedings.7.6.51](https://doi.org/10.21467/proceedings.7.6.51)
+📌 **"Breaking Neural Barriers with Transformers Replacing RNN and CNN"**
+*AIJR Proceedings*, Vol. 7, No. 6, 2025 · [DOI: 10.21467/proceedings.7.6.51](https://doi.org/10.21467/proceedings.7.6.51)
 
 ---
 
@@ -97,7 +100,7 @@
 
 <br/>
 
-*Open to - AI/ML Engineer · GenAI Engineer · Data Scientist · Computer Vision Engineer*  
-*Anywhere in India · Immediate Joiner · Let's build something great 🚀*
+*Open to - AI Engineer · LLM Engineer · AI/ML Engineer · Forward Deployed Engineer*  
+*Immediate joiner · Open to relocate · Let's build something great 🚀*
 
 </div>
