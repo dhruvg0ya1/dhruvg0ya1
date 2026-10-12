@@ -1,10 +1,9 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=28&duration=2800&pause=900&color=00F0FF&center=true&vCenter=true&width=780&lines=Hey%2C+I'm+Dhruv+Goyal+%E2%9A%A1;AI+Product+Engineer+%40+Times+Internet;Building+Production+Generative+AI+%40+The+Economic+Times;Co-Founder+%40+PickleTech+Advisory+(fakepickle.tech);92K+LOC+%C2%B7+43+Models+%C2%B7+13+Providers+%C2%B7+808+Tests" alt="Dhruv Goyal Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2800&pause=900&color=00F0FF&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Dhruv+Goyal+%E2%9A%A1;AI+Product+Engineer+%40+Times+Internet;Generative+AI+%40+The+Economic+Times;LLMs+%C2%B7+Multi-Agent+Systems+%C2%B7+Vision" alt="Dhruv Goyal Typing SVG" />
 
 <br/>
 
-[![Website](https://img.shields.io/badge/PickleTech%20Advisory-fakepickle.tech-00F0FF?style=for-the-badge&logo=googlechrome&logoColor=black)](https://fakepickle.tech)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-dhruvg0yal-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhruvg0yal)
 [![X / Twitter](https://img.shields.io/badge/X-@dhruvg0yal-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/dhruvg0yal)
 [![Email](https://img.shields.io/badge/Email-dhruvg096@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhruvg096@gmail.com)
@@ -17,16 +16,16 @@
 ### ⚡ Executive Snapshot
 
 - 🏢 **AI Product Engineer @ Times Internet**: Sole engineer owning the **92,000 LOC** production generative media pipeline powering AI video at ***The Economic Times***.
-- 🚀 **Co-Founder & Head of Applied AI @ [PickleTech Advisory](https://fakepickle.tech)**: Engineering high-performance enterprise AI agent systems, speculative model routers, and sovereign infrastructure alongside co-founder [Harsh Mistry](https://github.com/fakepickle).
-- 📉 **Production Impact**: Slashed per-episode generative inference costs by **58%** (₹9,756 → ₹5,960) with a **4x throughput speedup** and an automated **808-test unattended QC gate**.
+- 🎬 **Unified Media Foundation (`pipeline/etai_core`)**: Zero duplicate code architecture powering 6 production applications across 43 model configurations and 13 providers behind 5 typed engine interfaces.
 - 🔬 **Published Researcher**: Author of *"Breaking Neural Barriers with Transformers Replacing RNN and CNN"*, *AIJR Proceedings*, 2025 ([DOI: 10.21467/proceedings.7.6.51](https://doi.org/10.21467/proceedings.7.6.51)).
+- 🛠️ **Core Specializations**: Speculative LLM/Diffusion model cascades, unattended QC evaluation harnesses, Tree-sitter codebase AST intelligence, and self-hosted ComfyUI GPU clusters.
 - 🎓 **Education**: B.Tech in Artificial Intelligence & Machine Learning @ **GGSIPU**, Delhi NCR.
 
 ---
 
 ### 🎬 Production AI Video Architecture @ The Economic Times (ETai)
 
-> *Architected and single-handedly maintained the 92K LOC generative media pipeline serving India's premier financial daily.*
+> *Architected and maintained the 92K LOC generative media pipeline serving India's premier financial daily.*
 
 ```
 ┌──────────────────────────────────────────────────────────────────────────────────────────────┐
@@ -34,30 +33,21 @@
 ├──────────────────────────────────────────────────────────────────────────────────────────────┤
 │  [1. SCRIPT / BEATS]  ──►  [2. IMAGE GEN]    ──►  [3. SPEECH / TTS]   ──►  [4. VIDEO DIFF]   │
 │   Gemini 2.5 Flash          Gemini Batch API       Whisper Aligned          ComfyUI A100     │
-│   56-Beat Story Arc         Consistent Actors      Neural Voiceprint        Runway Gen-3/Veo │
+│   56-Beat Story Arc         Consistent Actors      Sarvam v4 (201 Voices)   Runway Gen-3/Veo │
 │                                                                                              │
-│  ──►  [5. LIP-SYNC]   ──►  [6. AUDIO MIX]    ──►  [7. QC EVAL GATE]   ──►  [4K PRODUCTION]   │
+│  ──►  [5. LIP-SYNC]   ──►  [6. AUDIO MIX]    ──►  [7. QC EVAL GATE]   ──►  [PRODUCTION REELS]│
 │       Sync Dub Model        SFX / Beats / Duck      808 Automated Tests       Hinglish 9:16  │
-│       Face Motion 60fps     EBU-R128 Loudness       79% Story Fidelity        45s-120s Reels │
+│       Face Motion 60fps     EBU-R128 Loudness       79% Story Fidelity        45s-120s Shorts│
 └──────────────────────────────────────────────────────────────────────────────────────────────┘
 ```
 
-#### 📌 6 Core Production Applications in Production:
-1. **MicroDramas**: Hinglish 9:16 vertical narrative series (~45 min cut into 45–120s episodes) with consistent character embeddings and multi-beat story arcs.
+#### 📌 Core Production Applications in Active Deployment:
+1. **MicroDramas**: Hinglish 9:16 vertical narrative series (~45 min cut into 45–120s episodes) with consistent character embeddings, multi-beat story arcs, and dynamic camera cuts.
 2. **ETHealthVideos**: 60-second running & fitness vertical reels featuring an AI-synthesized coach for marathon preparation.
-3. **Masterclass (Clipper Engine)**: Multi-speaker long-form video intelligence that automatically identifies 30s hooks and extracts 1–2 minute high-engagement educational clips.
-4. **ETAIWork**: 10-minute long-form explainer engine with automated A/B evaluation harnesses.
-5. **MetaCreatives**: Ad creative & prompt generation kits for Times Internet marathon campaigns.
-6. **MarketingVideos**: 45s product promo reels with animated kinetic typography and brand-compliant safe zones.
-
-#### 📊 Production Engineering Benchmarks:
-| Metric | Before Optimization | After Optimization | Engineering Lever |
-|:---|:---:|:---:|:---|
-| **Cost per Episode** | **₹9,756** | **₹5,960 (-58%)** | Gemini Batch API + Speculative Cloud/Local routing |
-| **360-Job Render Time** | **72 hours** | **18 hours (4.0x)** | Parallelized async queues + A100 batch inference |
-| **GPU Cluster Cost** | ₹ Cloud Hourly | **₹0 (Self-Hosted)** | Dedicated ComfyUI cluster on A100-40GB PCIe |
-| **Quality Gate** | Manual QA | **808 Automated Tests** | Unattended `pytest` test suite with audio/video asserts |
-| **Model Abstraction** | Hardcoded APIs | **43 Configs / 13 Providers** | 5 typed interfaces with zero vendor lock-in |
+3. **Masterclass (Clipper Engine)**: Multi-speaker long-form webinar intelligence that automatically transcribes, identifies 30s hooks, and extracts 1–2 minute educational clips.
+4. **ETAIWork**: 10-minute long-form explainer engine with automated A/B comparative evaluation harnesses.
+5. **MarketingVideos**: 45s product promo reels with animated kinetic typography, brand-compliant safe zones, and LTX-2.3 outpainting.
+6. **MetaCreatives**: Ad creative & prompt generation kits for Times Internet marathon campaigns adhering to Google ABCD ad guidelines.
 
 ---
 
@@ -98,14 +88,14 @@
       <p><code>PyTorch</code> · <code>CUDA</code> · <code>Transformers</code> · <code>Deep Learning</code></p>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://fakepickle.tech">🛡️ PickleTech Advisory</a></h4>
-      <p><b>High-Performance Systems & Enterprise AI Consulting</b></p>
+      <h4><a href="https://github.com/dhruvg0ya1/FIT-HAPPENS-NEW">💪 Fit Happens</a></h4>
+      <p><b>Full-Stack AI Health & Adaptive Coach</b></p>
       <ul>
-        <li>Co-founded with Harsh Mistry (IIIT-Delhi).</li>
-        <li>Flagship product <a href="https://driftnet.fakepickle.tech">Driftnet</a>: sovereign network anomaly detection daemon.</li>
-        <li>Enterprise generative AI deployment, model routing, and cost reduction sprints.</li>
+        <li>Interactive workout recommendations and cognitive brain gym routines.</li>
+        <li>Gemini 2.5 Flash conversational assistant with adaptive workout tracking.</li>
+        <li>Production React frontend with Firebase authentication and real-time database.</li>
       </ul>
-      <p><code>Go</code> · <code>Python</code> · <code>eBPF</code> · <code>React</code> · <code>Cloud Infra</code></p>
+      <p><code>React</code> · <code>TypeScript</code> · <code>Gemini</code> · <code>Firebase</code></p>
     </td>
   </tr>
   <tr>
@@ -143,7 +133,7 @@
 | **Deep Learning & Inference** | `PyTorch` · `TensorFlow` · `CUDA / TensorRT` · `Hugging Face Transformers` · `vLLM` · `Ollama` · `ComfyUI` |
 | **LLMs & Agent Frameworks** | `OpenAI API` · `Google Gemini 2.5` · `Anthropic Claude` · `LangChain` · `LlamaIndex` · `DSPy` |
 | **Computer Vision & Multimodal** | `OpenCV` · `Florence-2` · `BLIP-2` · `Stable Diffusion / SDXL` · `Runway Gen-3` · `Veo` · `DeepFace` |
-| **Audio & Speech Systems** | `OpenAI Whisper` · `ElevenLabs` · `FFmpeg (libav)` · `EBU-R128 Loudness Normalization` |
+| **Audio & Speech Systems** | `OpenAI Whisper` · `Sarvam AI` · `ElevenLabs` · `FFmpeg (libav)` · `EBU-R128 Loudness Normalization` |
 | **Vector DBs & Retrieval** | `Pinecone` · `ChromaDB` · `FAISS` · `BM25 (Rank-BM25)` · `Tree-sitter AST` |
 | **Cloud & Infrastructure** | `NVIDIA A100 / H100 GPUs` · `AWS (S3, EC2, Lambda)` · `Docker` · `Redis` · `FastAPI` · `Git / GitHub Actions` |
 
@@ -185,6 +175,6 @@
 <div align="center">
 
 **Open to Strategic AI Architecture Advisory · Enterprise GenAI Sprints · Principal Engineering Roles**  
-📫 Let's connect: **dhruvg096@gmail.com** · [LinkedIn](https://linkedin.com/in/dhruvg0yal) · [fakepickle.tech](https://fakepickle.tech)
+📫 Let's connect: **dhruvg096@gmail.com** · [LinkedIn](https://linkedin.com/in/dhruvg0yal)
 
 </div>
