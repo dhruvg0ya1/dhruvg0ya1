@@ -35,10 +35,10 @@
 
 **Eight products on one engine** - ET TV shorts and long-form explainers, YouTube long-form, marketing ads in every shape (9:16, 1:1, 4:5, 16:9), clips cut from ET Masterclass recordings, Hinglish micro-drama stories, ET Health and marathon reels, and **ETai Video Studio**, the portal where any team at ET asks for a video.
 
-- **Scale**: up to ~300 AI shorts a day on a dynamic fleet of up to 9 cloud GPUs, at under Rs 55 a finished minute.
-- **Inference**: open-weight MiniMax video diffusion self-hosted in place of a paid API; quantized builds and GPUs benchmarked (int8 1.1x faster than fp8, Blackwell 1.86x an A100).
-- **Computer vision on video**: a planar screen tracker (sub-pixel edges, Lucas-Kanade + homography), background-only camera-motion estimation, SyncNet lip-sync and InsightFace identity gates.
-- **Agents**: the automated editor is an MCP server with 20 typed tools; a 450+ agent research swarm sits behind a verifier that caught most cited figures missing from their sources.
+- **Scale**: built for ~300 AI shorts a day, at under Rs 55 a finished minute.
+- **Inference**: video diffusion self-hosted on a cloud GPU fleet; quantized builds and GPU generations benchmarked, cutting compute per video by 24%.
+- **Computer vision and evaluation**: phone-screen tracking, camera-motion estimation, lip-sync and face-identity checks and a vision-language judge on every take.
+- **Agents and LLMOps**: the automated editor is an MCP server AI agents can drive; one gateway runs 16 LLM, image, video and voice models with fallback, caching and spend limits.
 
 ---
 
