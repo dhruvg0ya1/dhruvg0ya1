@@ -15,39 +15,30 @@
 
 ### ⚡ Executive Snapshot
 
-- 🏢 **AI Product Engineer @ Times Internet**: Sole engineer owning the **92,000 LOC** production generative media pipeline powering AI video at ***The Economic Times***.
-- 🎬 **Unified Media Foundation (`pipeline/etai_core`)**: Zero duplicate code architecture powering 6 production applications across 43 model configurations and 13 providers behind 5 typed engine interfaces.
-- 🔬 **Published Researcher**: Author of *"Breaking Neural Barriers with Transformers Replacing RNN and CNN"*, *AIJR Proceedings*, 2025 ([DOI: 10.21467/proceedings.7.6.51](https://doi.org/10.21467/proceedings.7.6.51)).
-- 🛠️ **Core Specializations**: Speculative LLM/Diffusion model cascades, unattended QC evaluation harnesses, Tree-sitter codebase AST intelligence, and self-hosted ComfyUI GPU clusters.
+- 🏢 **AI Engineer @ Times Internet (The Economic Times)**: running ET's in-house generative-AI video platform as a **one-person startup** - eight video products on one engine, built to make **~300 AI shorts a day** at **under Rs 55 a finished minute**.
+- 🎥 **Video AI all year**: before ET, at **Moleculyst**, a pipeline that turns one image + a prompt into a **physics-accurate video** (Grounding DINO, SAM2, PartSAM, material recognition, MPM), and a ReAct image-editing agent.
+- 🔬 **Published Researcher**: *"Breaking Neural Barriers with Transformers Replacing RNN and CNN"*, *AIJR Proceedings*, 2025 ([DOI: 10.21467/proceedings.7.6.51](https://doi.org/10.21467/proceedings.7.6.51)).
+- 🛠️ **What I like building**: computer vision on video, agents (ReAct, MCP), GPU and CPU inference, and evaluation that catches what models get wrong.
 - 🎓 **Education**: B.Tech in Artificial Intelligence & Machine Learning @ **GGSIPU**, Delhi NCR.
 
 ---
 
-### 🎬 Production AI Video Architecture @ The Economic Times (ETai)
+### 🎬 ETai - The Economic Times' in-house video-AI platform
 
-> *Architected and maintained the 92K LOC generative media pipeline serving India's premier financial daily.*
+> *A brief goes in, a finished and checked video comes out - for many different kinds of video, on one shared engine.*
 
 ```
-┌──────────────────────────────────────────────────────────────────────────────────────────────┐
-│                  THE ECONOMIC TIMES (ETai) AUTONOMOUS GENERATIVE PIPELINE                    │
-├──────────────────────────────────────────────────────────────────────────────────────────────┤
-│  [1. SCRIPT / BEATS]  ──►  [2. IMAGE GEN]    ──►  [3. SPEECH / TTS]   ──►  [4. VIDEO DIFF]   │
-│   Gemini 2.5 Flash          Gemini Batch API       Whisper Aligned          ComfyUI A100     │
-│   56-Beat Story Arc         Consistent Actors      Sarvam v4 (201 Voices)   Runway Gen-3/Veo │
-│                                                                                              │
-│  ──►  [5. LIP-SYNC]   ──►  [6. AUDIO MIX]    ──►  [7. QC EVAL GATE]   ──►  [PRODUCTION REELS]│
-│       Sync Dub Model        SFX / Beats / Duck      808 Automated Tests       Hinglish 9:16  │
-│       Face Motion 60fps     EBU-R128 Loudness       79% Story Fidelity        45s-120s Shorts│
-└──────────────────────────────────────────────────────────────────────────────────────────────┘
+ BRIEF -> SCRIPT & SHOTS -> AI PICTURES -> VIDEO DIFFUSION -> VOICE & MUSIC -> AUTOMATED EDIT -> QC -> DELIVERY
+          Gemini            Gemini batch   MiniMax H3 on a    ElevenLabs,      planner + MCP    SyncNet, faces,
+                                           self-hosted fleet  ACE-Step         server (20 tools) camera motion, VLM judge
 ```
 
-#### 📌 Core Production Applications in Active Deployment:
-1. **MicroDramas**: Hinglish 9:16 vertical narrative series (~45 min cut into 45–120s episodes) with consistent character embeddings, multi-beat story arcs, and dynamic camera cuts.
-2. **ETHealthVideos**: 60-second running & fitness vertical reels featuring an AI-synthesized coach for marathon preparation.
-3. **Masterclass (Clipper Engine)**: Multi-speaker long-form webinar intelligence that automatically transcribes, identifies 30s hooks, and extracts 1–2 minute educational clips.
-4. **ETAIWork**: 10-minute long-form explainer engine with automated A/B comparative evaluation harnesses.
-5. **MarketingVideos**: 45s product promo reels with animated kinetic typography, brand-compliant safe zones, and LTX-2.3 outpainting.
-6. **MetaCreatives**: Ad creative & prompt generation kits for Times Internet marathon campaigns adhering to Google ABCD ad guidelines.
+**Eight products on one engine** - ET TV shorts and long-form explainers, YouTube long-form, marketing ads in every shape (9:16, 1:1, 4:5, 16:9), clips cut from ET Masterclass recordings, Hinglish micro-drama stories, ET Health and marathon reels, and **ETai Video Studio**, the portal where any team at ET asks for a video.
+
+- **Scale**: up to ~300 AI shorts a day on a dynamic fleet of up to 9 cloud GPUs, at under Rs 55 a finished minute.
+- **Inference**: open-weight MiniMax video diffusion self-hosted in place of a paid API; quantized builds and GPUs benchmarked (int8 1.1x faster than fp8, Blackwell 1.86x an A100).
+- **Computer vision on video**: a planar screen tracker (sub-pixel edges, Lucas-Kanade + homography), background-only camera-motion estimation, SyncNet lip-sync and InsightFace identity gates.
+- **Agents**: the automated editor is an MCP server with 20 typed tools; a 450+ agent research swarm sits behind a verifier that caught most cited figures missing from their sources.
 
 ---
 
@@ -69,9 +60,9 @@
       <h4><a href="https://github.com/dhruvg0ya1/Agent-Image-Editing">🍌 Agent Banana (Agentic Image Editing)</a></h4>
       <p><b>Visual Editing via Layer Decomposition</b></p>
       <ul>
-        <li>Florence-2 open-vocabulary grounding for pixel-precise bounding boxes.</li>
-        <li>Autonomous ReAct loop with Gemini VLM critic for visual verification.</li>
-        <li>Laplacian pyramid blending for seamless multi-layer artifact removal.</li>
+        <li>ReAct loop: Gemini 2.5 Flash picks from 9 tools, up to 3 self-correcting attempts.</li>
+        <li>Florence-2 grounding re-ranked by an LLM spatial advisor; only the crop is edited.</li>
+        <li>Laplacian pyramid blending, a VLM critic and a seam detector check every edit.</li>
       </ul>
       <p><code>PyTorch</code> · <code>Florence-2</code> · <code>Gemini VLM</code> · <code>OpenCV</code></p>
     </td>
@@ -129,13 +120,13 @@
 
 | Domain | Technologies & Frameworks |
 |:---|:---|
-| **Core Languages** | `Python (Advanced)` · `SQL / PostgreSQL` · `C++` · `JavaScript / TypeScript` · `Bash` |
-| **Deep Learning & Inference** | `PyTorch` · `TensorFlow` · `CUDA / TensorRT` · `Hugging Face Transformers` · `vLLM` · `Ollama` · `ComfyUI` |
-| **LLMs & Agent Frameworks** | `OpenAI API` · `Google Gemini 2.5` · `Anthropic Claude` · `LangChain` · `LlamaIndex` · `DSPy` |
-| **Computer Vision & Multimodal** | `OpenCV` · `Florence-2` · `BLIP-2` · `Stable Diffusion / SDXL` · `Runway Gen-3` · `Veo` · `DeepFace` |
-| **Audio & Speech Systems** | `OpenAI Whisper` · `Sarvam AI` · `ElevenLabs` · `FFmpeg (libav)` · `EBU-R128 Loudness Normalization` |
-| **Vector DBs & Retrieval** | `Pinecone` · `ChromaDB` · `FAISS` · `BM25 (Rank-BM25)` · `Tree-sitter AST` |
-| **Cloud & Infrastructure** | `NVIDIA A100 / H100 GPUs` · `AWS (S3, EC2, Lambda)` · `Docker` · `Redis` · `FastAPI` · `Git / GitHub Actions` |
+| **Core Languages** | `Python` · `SQL` · `Bash` · `JavaScript` |
+| **Deep Learning & Inference** | `PyTorch` · `TensorFlow` · `Hugging Face Transformers` · `ONNX Runtime` · `ComfyUI` · `Ollama` · `CUDA` |
+| **LLMs & Agents** | `Google Gemini` · `OpenAI API` · `Anthropic Claude` · `LangChain` · `MCP` · `ReAct agents` |
+| **Computer Vision & Multimodal** | `OpenCV` · `Grounding DINO` · `SAM2` · `Florence-2` · `InsightFace` · `SyncNet` · `BLIP` · `DeepFace` · `MiniMax H3 video diffusion` |
+| **Audio & Speech** | `OpenAI Whisper` · `MMS forced aligner` · `ElevenLabs` · `ACE-Step` · `FFmpeg` · `EBU-R128 loudness` |
+| **Vector DBs & Retrieval** | `Pinecone` · `BM25` · `Tree-sitter AST` |
+| **Infrastructure** | `Colab GPU fleets (A100, RTX PRO 6000)` · `Linux servers` · `Docker` · `FastAPI` · `AWS` · `Git` |
 
 </div>
 
