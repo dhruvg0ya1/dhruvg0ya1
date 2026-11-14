@@ -1,163 +1,172 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2800&pause=900&color=00F0FF&center=true&vCenter=true&width=700&lines=Hey%2C+I'm+Dhruv+Goyal+%E2%9A%A1;AI+Product+Engineer+%40+Times+Internet;Generative+AI+%40+The+Economic+Times;LLMs+%C2%B7+Multi-Agent+Systems+%C2%B7+Vision" alt="Dhruv Goyal Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2800&pause=900&color=00F0FF&center=true&vCenter=true&width=720&lines=Hey%2C+I'm+Dhruv+Goyal+%F0%9F%91%8B;AI+Engineer+%40+The+Economic+Times;I+build+AI+that+makes+and+understands+video;Generative+Video+%C2%B7+Computer+Vision+%C2%B7+Agents" alt="Dhruv Goyal" />
 
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-dhruvg0yal-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/dhruvg0yal)
-[![X / Twitter](https://img.shields.io/badge/X-@dhruvg0yal-000000?style=for-the-badge&logo=x&logoColor=white)](https://twitter.com/dhruvg0yal)
-[![Email](https://img.shields.io/badge/Email-dhruvg096@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dhruvg096@gmail.com)
+[![X](https://img.shields.io/badge/X-@dhruvg0yal-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/dhruvg0yal)
 [![Kaggle](https://img.shields.io/badge/Kaggle-dhruvg0yal-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white)](https://kaggle.com/dhruvg0yal)
+[![Paper](https://img.shields.io/badge/Paper-AIJR_2025-8A2BE2?style=for-the-badge&logo=googlescholar&logoColor=white)](https://doi.org/10.21467/proceedings.7.6.51)
 
 </div>
 
 ---
 
-### ⚡ Executive Snapshot
+### 👋 About me
 
-- 🏢 **AI Engineer @ Times Internet (The Economic Times)**: running ET's in-house generative-AI video platform as a **one-person startup** - eight video products on one engine, built to make **~300 AI shorts a day** at **under Rs 55 a finished minute**.
-- 🎥 **Video AI all year**: before ET, at **Moleculyst**, a pipeline that turns one image + a prompt into a **physics-accurate video** (Grounding DINO, SAM2, PartSAM, material recognition, MPM), and a ReAct image-editing agent.
-- 🔬 **Published Researcher**: *"Breaking Neural Barriers with Transformers Replacing RNN and CNN"*, *AIJR Proceedings*, 2025 ([DOI: 10.21467/proceedings.7.6.51](https://doi.org/10.21467/proceedings.7.6.51)).
-- 🛠️ **What I like building**: computer vision on video, agents (ReAct, MCP), GPU and CPU inference, and evaluation that catches what models get wrong.
-- 🎓 **Education**: B.Tech in Artificial Intelligence & Machine Learning @ **GGSIPU**, Delhi NCR.
-
----
-
-### 🎬 ETai - The Economic Times' in-house video-AI platform
-
-> *A brief goes in, a finished and checked video comes out - for many different kinds of video, on one shared engine.*
-
-```
- BRIEF -> SCRIPT & SHOTS -> AI PICTURES -> VIDEO DIFFUSION -> VOICE & MUSIC -> AUTOMATED EDIT -> QC -> DELIVERY
-          Gemini            Gemini batch   MiniMax H3 on a    ElevenLabs,      planner + MCP    SyncNet, faces,
-                                           self-hosted fleet  ACE-Step         server (20 tools) camera motion, VLM judge
-```
-
-**Eight products on one engine** - ET TV shorts and long-form explainers, YouTube long-form, marketing ads in every shape (9:16, 1:1, 4:5, 16:9), clips cut from ET Masterclass recordings, Hinglish micro-drama stories, ET Health and marathon reels, and **ETai Video Studio**, the portal where any team at ET asks for a video.
-
-- **Scale**: built for ~300 AI shorts a day, at under Rs 55 a finished minute.
-- **Inference**: video diffusion self-hosted on a cloud GPU fleet; quantized builds and GPU generations benchmarked, cutting compute per video by 24%.
-- **Computer vision and evaluation**: phone-screen tracking, camera-motion estimation, lip-sync and face-identity checks and a vision-language judge on every take.
-- **Agents and LLMOps**: the automated editor is an MCP server AI agents can drive; one gateway runs 16 LLM, image, video and voice models with fallback, caching and spend limits.
+- 🎬 **AI Engineer at The Economic Times (Times Internet).** I build and run the company's in-house generative-AI video platform on my own, end to end, like a one-person startup inside a large company.
+- 🧪 **Video AI all year.** Before ET, at **Moleculyst**, I built a pipeline that turns one image and a prompt into a **physics-accurate video**, and an agent that edits images on its own.
+- 🧠 **What I enjoy most:** computer vision on video, AI agents, fast and cheap inference, and evaluation that catches what models get wrong.
+- 📄 **Published** a paper on Transformers replacing RNNs and CNNs (*AIJR Proceedings*, 2025).
+- 🎓 **B.Tech, Artificial Intelligence & Machine Learning**, GGSIPU (2026).
 
 ---
 
-### 🚀 Featured Systems & Open-Source Projects
+### 🎥 What I build: generative video, end to end
+
+> A brief goes in; a finished, checked video comes out. One shared engine serves many different kinds of video - vertical shorts, long explainers, ads in every aspect ratio, clips cut from recordings, and Hindi-English stories.
+
+```
+  BRIEF ──► SCRIPT & SHOT PLAN ──► IMAGES ──► VIDEO DIFFUSION ──► VOICE & MUSIC ──► AUTOMATED EDIT ──► QUALITY CHECKS ──► DELIVERY
+            LLMs                   image      self-hosted on      speech synthesis  an editor AI        lip-sync, identity,
+                                   models     a cloud GPU fleet   + music models    agents can drive    motion, VLM judge
+```
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/dhruvg0ya1/CodeoGraph">📊 CodeoGraph</a></h4>
-      <p><b>Enterprise Codebase Intelligence & PR Review Agent</b></p>
+      <h4>🧩 LLMOps &amp; agents</h4>
       <ul>
-        <li>Incremental Tree-sitter AST parsing across polyglot repositories.</li>
-        <li>Hybrid BM25 + dense vector retrieval (Pinecone) for semantic dependency discovery.</li>
-        <li>Automated PR impact analysis & regression detection.</li>
+        <li>One gateway over many LLM, image, video and voice models, with fallback, caching, cost tracking and spend limits</li>
+        <li>An automated video editor exposed as an <b>MCP server</b>, so AI agents can plan, cut and review a video</li>
+        <li>Multi-agent research pipelines with automatic source checking</li>
       </ul>
-      <p><code>Python</code> · <code>Tree-sitter</code> · <code>FastAPI</code> · <code>Pinecone</code> · <code>LangChain</code></p>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/dhruvg0ya1/Agent-Image-Editing">🍌 Agent Banana (Agentic Image Editing)</a></h4>
-      <p><b>Visual Editing via Layer Decomposition</b></p>
+      <h4>👁️ Computer vision &amp; evaluation</h4>
       <ul>
-        <li>ReAct loop: Gemini 2.5 Flash picks from 9 tools, up to 3 self-correcting attempts.</li>
-        <li>Florence-2 grounding re-ranked by an LLM spatial advisor; only the crop is edited.</li>
-        <li>Laplacian pyramid blending, a VLM critic and a seam detector check every edit.</li>
+        <li>Phone-screen tracking in OpenCV (RANSAC, Lucas-Kanade, homography) and camera-motion estimation</li>
+        <li>Automatic checks on every generated take: lip-sync, face identity, frozen frames, and a vision-language judge</li>
+        <li>Frame-by-frame analysis of reference videos to learn how great videos are cut</li>
       </ul>
-      <p><code>PyTorch</code> · <code>Florence-2</code> · <code>Gemini VLM</code> · <code>OpenCV</code></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/dhruvg0ya1/GPT-2">🧠 GPT-2 from Scratch</a></h4>
-      <p><b>Foundational Causal Transformer Reproduction</b></p>
+      <h4>⚡ Inference</h4>
       <ul>
-        <li>Built from scratch in pure PyTorch: multi-head causal self-attention and weight tying.</li>
-        <li>Pretrained 124M base model and fine-tuned 355M checkpoint.</li>
-        <li>Evaluated via Llama-3-as-Judge automated rubric.</li>
+        <li>Video diffusion self-hosted on a cloud GPU fleet that scales up and down with the work</li>
+        <li>Quantized builds benchmarked across GPU generations; <b>24% less compute per video</b></li>
       </ul>
-      <p><code>PyTorch</code> · <code>CUDA</code> · <code>Transformers</code> · <code>Deep Learning</code></p>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/dhruvg0ya1/FIT-HAPPENS-NEW">💪 Fit Happens</a></h4>
-      <p><b>Full-Stack AI Health & Adaptive Coach</b></p>
+      <h4>🔊 Speech &amp; audio</h4>
       <ul>
-        <li>Interactive workout recommendations and cognitive brain gym routines.</li>
-        <li>Gemini 2.5 Flash conversational assistant with adaptive workout tracking.</li>
-        <li>Production React frontend with Firebase authentication and real-time database.</li>
+        <li>Forced alignment for word-timed captions in Hindi and English</li>
+        <li>Speech-quality scoring that picks the best clean-up for every clip, and music cut on its beats</li>
       </ul>
-      <p><code>React</code> · <code>TypeScript</code> · <code>Gemini</code> · <code>Firebase</code></p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/dhruvg0ya1/SyncPixel">🎵 SyncPixel</a></h4>
-      <p><b>Multimodal Emotion-to-Audio Recommendation</b></p>
-      <ul>
-        <li>Facial affect extraction using DeepFace + scene captioning via BLIP.</li>
-        <li>Emotion vector mapping to Spotify Audio Features API via Gemini.</li>
-      </ul>
-      <p><code>PyTorch</code> · <code>BLIP</code> · <code>DeepFace</code> · <code>Spotify API</code></p>
-    </td>
-    <td width="50%" valign="top">
-      <h4><a href="https://github.com/dhruvg0ya1/Aevom">✉️ Aevom</a></h4>
-      <p><b>Autonomous Cold-Outreach Generation Engine</b></p>
-      <ul>
-        <li>Automated LinkedIn profile scraping and disk caching.</li>
-        <li>Strict structured JSON extraction with automated schema fallback healing.</li>
-        <li>Gmail OAuth2 integration with state-machine follow-up tracking.</li>
-      </ul>
-      <p><code>Streamlit</code> · <code>HuggingFace</code> · <code>Gmail OAuth2</code></p>
     </td>
   </tr>
 </table>
 
 ---
 
-### 🛠️ Production Technology Stack
+### 🌊 Before that: physics-accurate video (Moleculyst)
 
-<div align="center">
-
-| Domain | Technologies & Frameworks |
-|:---|:---|
-| **Core Languages** | `Python` · `SQL` · `Bash` · `JavaScript` |
-| **Deep Learning & Inference** | `PyTorch` · `TensorFlow` · `Hugging Face Transformers` · `ONNX Runtime` · `ComfyUI` · `Ollama` · `CUDA` |
-| **LLMs & Agents** | `Google Gemini` · `OpenAI API` · `Anthropic Claude` · `LangChain` · `MCP` · `ReAct agents` |
-| **Computer Vision & Multimodal** | `OpenCV` · `Grounding DINO` · `SAM2` · `Florence-2` · `InsightFace` · `SyncNet` · `BLIP` · `DeepFace` · `MiniMax H3 video diffusion` |
-| **Audio & Speech** | `OpenAI Whisper` · `MMS forced aligner` · `ElevenLabs` · `ACE-Step` · `FFmpeg` · `EBU-R128 loudness` |
-| **Vector DBs & Retrieval** | `Pinecone` · `BM25` · `Tree-sitter AST` |
-| **Infrastructure** | `Colab GPU fleets (A100, RTX PRO 6000)` · `Linux servers` · `Docker` · `FastAPI` · `AWS` · `Git` |
-
-</div>
+- **Single image + text → physics-accurate video:** Grounding DINO, SAM2 and PartSAM find the objects and their parts, material recognition works out what each part is made of, and an **MPM** physics simulation decides how it moves before diffusion renders the video.
+- **Material recognition** reproduced from an ICCV 2025 paper (ResNet50 + graph attention over a material taxonomy).
+- **Agent Banana**, an image-editing agent (below), shipped on Hugging Face Spaces.
 
 ---
 
-### 🔬 Peer-Reviewed Research Publication
+### 🚀 Featured projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/dhruvg0ya1/Agent-Image-Editing">🍌 Agent Banana - agentic image editing</a></h4>
+      <ul>
+        <li>ReAct agent: Gemini picks the next tool each step (find, crop, edit, blend, check) and retries until a VLM critic passes the edit</li>
+        <li>Ground-first editing: Florence-2 finds the target, only that crop is regenerated, Laplacian-pyramid blending keeps the rest untouched</li>
+        <li>Live step-by-step streaming, Docker, unit tests</li>
+      </ul>
+      <p><code>Python</code> · <code>Florence-2</code> · <code>Gemini</code> · <code>OpenCV</code> · <code>Docker</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/dhruvg0ya1/CodeoGraph">📊 CodeoGraph - RAG over codebases</a></h4>
+      <ul>
+        <li>Tree-sitter AST chunking, Gemini embeddings in Pinecone and hybrid dense + BM25 retrieval, so answers cite the repo's own code</li>
+        <li>A symbol-dependency graph traces what a change touches, and an LLM PR reviewer grades the risk of every affected file</li>
+      </ul>
+      <p><code>Python</code> · <code>FastAPI</code> · <code>Tree-sitter</code> · <code>Pinecone</code> · <code>NetworkX</code></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/dhruvg0ya1/GPT-2">🧠 GPT-2 from scratch</a></h4>
+      <ul>
+        <li>GPT-2 rebuilt from first principles in PyTorch: causal self-attention, learned positions, weight tying</li>
+        <li>Pretrained the 124M model, fine-tuned the 355M model on instructions, evaluated with an LLM judge</li>
+      </ul>
+      <p><code>PyTorch</code> · <code>Transformers</code> · <code>Ollama</code></p>
+    </td>
+    <td width="50%" valign="top">
+      <h4><a href="https://github.com/dhruvg0ya1/SyncPixel">🎵 SyncPixel - photo to playlist</a></h4>
+      <ul>
+        <li>DeepFace emotion recognition plus BLIP captioning and visual Q&amp;A read the mood of a photo</li>
+        <li>The mood becomes Spotify audio targets (valence, energy, danceability) for a matching playlist</li>
+      </ul>
+      <p><code>Python</code> · <code>DeepFace</code> · <code>BLIP</code> · <code>Spotify API</code></p>
+    </td>
+  </tr>
+</table>
+
+<p align="center">More: <a href="https://github.com/dhruvg0ya1/IBM-Employee-Salary-Pred">salary prediction</a> · <a href="https://github.com/dhruvg0ya1/VOIS_AICTE_Oct2025_DhruvGoyal">NYC Airbnb analysis</a> · <a href="https://github.com/dhruvg0ya1/VOIS_AICTE_Oct2025_MajorProject_DhruvGoyal">Netflix content analysis</a> · <a href="https://github.com/dhruvg0ya1/AI-Guest-Experience-Infosys">AI guest experience</a></p>
+
+---
+
+### 🛠️ Tech I work with
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,pytorch,opencv,fastapi,docker,linux,bash,git,js,mysql,mongodb,sqlite&perline=12" alt="Tech stack" />
+
+</div>
+
+| Area | Tools |
+|:---|:---|
+| **Generative AI & agents** | LLMs (Gemini, Claude, open models), RAG, ReAct agents, MCP, multi-agent pipelines, LLM / VLM-as-judge |
+| **Vision & video** | OpenCV, Grounding DINO, SAM2, Florence-2, InsightFace, SyncNet, video diffusion, ComfyUI |
+| **ML & deep learning** | PyTorch, Hugging Face, scikit-learn, XGBoost, quantization, model benchmarking |
+| **Speech & audio** | Whisper, forced alignment, speech synthesis, speech-quality scoring, FFmpeg |
+| **Data & infra** | Python, SQL, Pandas, Pinecone, FastAPI, Docker, Linux, cloud GPUs, pytest, Git |
+
+---
+
+### 📄 Publication
 
 <p align="center">
-  <b>📄 "Breaking Neural Barriers with Transformers Replacing RNN and CNN"</b><br/>
-  <i>AIJR Proceedings</i>, Vol. 7, No. 6, 2025 · ISSN: 2582-3922<br/>
-  <a href="https://doi.org/10.21467/proceedings.7.6.51"><b>🔗 Read Paper (DOI: 10.21467/proceedings.7.6.51)</b></a>
+  <b>"Breaking Neural Barriers with Transformers Replacing RNN and CNN"</b><br/>
+  <i>AIJR Proceedings</i>, Vol. 7, No. 6, 2025<br/>
+  <a href="https://doi.org/10.21467/proceedings.7.6.51">Read the paper (DOI: 10.21467/proceedings.7.6.51)</a>
 </p>
 
 ---
 
-### 📊 GitHub Activity & Streak
+### 📊 GitHub activity
 
 <div align="center">
 
-<a href="https://git.io/streak-stats">
-  <img src="https://github-readme-streak-stats-green-five.vercel.app?user=dhruvg0ya1&theme=tokyonight&date_format=j%20M%5B%20Y%5D&card_width=750&card_height=180&hide_border=true" alt="Dhruv's GitHub Streak" />
-</a>
+<img src="https://streak-stats.demolab.com?user=dhruvg0ya1&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 
-<br/><br/>
+<br/>
 
-<img src="https://github-readme-stats.vercel.app/api?username=dhruvg0ya1&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48%" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dhruvg0ya1&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=dhruvg0ya1&theme=tokyonight" alt="Profile details" width="96%" />
 
-<br/><br/>
+<br/>
 
-<img src="https://raw.githubusercontent.com/dhruvg0ya1/dhruvg0ya1/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" />
+<img src="https://raw.githubusercontent.com/dhruvg0ya1/dhruvg0ya1/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" />
 
 </div>
 
@@ -165,7 +174,7 @@
 
 <div align="center">
 
-**Open to Strategic AI Architecture Advisory · Enterprise GenAI Sprints · Principal Engineering Roles**  
-📫 Let's connect: **dhruvg096@gmail.com** · [LinkedIn](https://linkedin.com/in/dhruvg0yal)
+**I build AI that sees, edits and makes video.** Always happy to talk about generative video, computer vision and agents.<br/>
+👉 [Connect on LinkedIn](https://linkedin.com/in/dhruvg0yal)
 
 </div>
