@@ -94,12 +94,12 @@
       <p><code>Python</code> · <code>Florence-2</code> · <code>Gemini</code> · <code>OpenCV</code> · <code>Docker</code></p>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/dhruvg0ya1/CodeoGraph">📊 CodeoGraph - RAG over codebases</a></h4>
+      <h4><a href="https://github.com/dhruvg0ya1/CodeoGraph">📊 CodeoGraph - cited answers over any codebase</a></h4>
       <ul>
-        <li>Tree-sitter AST chunking, Gemini embeddings in Pinecone and hybrid dense + BM25 retrieval, so answers cite the repo's own code</li>
-        <li>A symbol-dependency graph traces what a change touches, and an LLM PR reviewer grades the risk of every affected file</li>
+        <li>A LangGraph agent (retrieve, grade, rewrite, answer, verify citations) over Tree-sitter chunks, hybrid BM25 + dense search and a call graph for change impact</li>
+        <li>An MCP server for Claude and Cursor; a 40-question benchmark (Recall@5 0.93) gates every change in CI</li>
       </ul>
-      <p><code>Python</code> · <code>FastAPI</code> · <code>Tree-sitter</code> · <code>Pinecone</code> · <code>NetworkX</code></p>
+      <p><code>Python</code> · <code>LangGraph</code> · <code>MCP</code> · <code>FastEmbed</code> · <code>FastAPI</code> · <code>Docker</code></p>
     </td>
   </tr>
   <tr>
