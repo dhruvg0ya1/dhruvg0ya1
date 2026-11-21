@@ -97,7 +97,7 @@
       <h4><a href="https://github.com/dhruvg0ya1/CodeoGraph">📊 CodeoGraph - cited answers over any codebase</a></h4>
       <ul>
         <li>A LangGraph agent (retrieve, grade, rewrite, answer, verify citations) over Tree-sitter chunks, hybrid BM25 + dense search and a call graph for change impact</li>
-        <li>An MCP server for Claude and Cursor; a 40-question benchmark (Recall@5 0.93) gates every change in CI</li>
+        <li>An MCP server for Claude and Cursor; a 40-question benchmark (Recall@5 0.93) gates every change in CI - <a href="https://codeograph.streamlit.app">live demo</a></li>
       </ul>
       <p><code>Python</code> · <code>LangGraph</code> · <code>MCP</code> · <code>FastEmbed</code> · <code>FastAPI</code> · <code>Docker</code></p>
     </td>
